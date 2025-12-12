@@ -8,7 +8,7 @@ import torchvision.transforms.functional as tvf
 import torch.nn.functional as F
 from . import get_model
 from .base import BaseModel
-from .submodules import *
+from .LDConv4 import *
 import os
 from .utils import(
     point_proj, 
